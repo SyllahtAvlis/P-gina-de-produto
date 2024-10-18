@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de compra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+</html>
+
+<main>
+    <!-- Seção do produto -->
+    <section class="produto">
+        <!-- Div que contém as imagens do produto -->
+        <div class="imagens-produto">
+            <!-- Imagem principal do produto -->
+            <center><img src="produto1.png" alt="Produto principal" class="imagem-principal" id="imagem-principal"></center>
+
+            <!-- Miniaturas das imagens -->
+            <div class="miniaturas">
+                <center><img src="https://http2.mlstatic.com/D_NQ_NP_802831-CBT54538075623_032023-O.webp" alt="Miniatura 1" class="miniatura" data-imagem="produto1.png"></center>
+            </div>
+        </div>
+
+        <!-- Div que contém os detalhes do produto -->
+        <div class="detalhes-produto">
+            <h2>Omnitrix lendário real</h2>
+            <!-- Descrição do produto -->
+            <p class="descricao">O Omnitrix, é um dispositivo semelhante a um relógio que se prende ao pulso de Ben Tennyson no início da série e é o dispositivo em torno do qual a franquia gira. O dispositivo é uma biblioteca portátil de dados genéticos intergalácticos que permitem ao portador alterar seu DNA à vontade e rapidamente se transformar em uma variedade de espécies alienígenas diferentes, cada uma com suas próprias habilidades únicas.</p>
+            <!-- Preço do produto -->
+            <p class="preco">R$ 149,99</p>
+
+            <!-- Formulário para selecionar tamanho e cor do produto -->
+            <form class="opcoes-compra">
+                <!-- Seleção de tamanho -->
+                <label for="tamanho">Tamanho:</label>
+                <select id="tamanho">
+                    <option>PP</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                </select>
+
+                <!-- Seleção de cor -->
+                <label for="cor">Cor:</label>
+                <select id="cor">
+                    <option>Verde</option>
+                    <option>Vermelho</option>
+                </select>
+
+                <!-- Botão de comprar -->
+                <button type="submit">Comprar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Seção de comentários dos clientes -->
+    <section class="comentarios">
+        <h3>Comentários dos clientes</h3> <!-- Título da seção de comentários -->
+
+        <!-- Comentário 1 -->
+        <div class="comentario">
+            <!-- Foto do usuário -->
+            <img src="https://img.freepik.com/fotos-premium/uma-mulher-com-um-sorriso-que-diz-natural_1204450-21479.jpg?semt=ais_hybrid" alt="Foto de Maria" class="foto-usuario">
+            <!-- Nome e depoimento do usuário -->
+            <p><strong>Maria:</strong> Adorei o produto, recomendo!</p>
+        </div>
+
+        <!-- Comentário 2 -->
+        <div class="comentario">
+            <!-- Foto do usuário -->
+            <img src="https://thumbs.dreamstime.com/b/homem-negro-irritado-66273068.jpg" alt="Foto de João" class="foto-usuario">
+            <!-- Nome e depoimento do usuário -->
+            <p><strong>João:</strong> Muito bom, superou minhas expectativas.</p>
+        </div>
+    </section>
+</main>
+
+<script src=”script.js”></script>
+</body>
+</html>
